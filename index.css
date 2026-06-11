@@ -1,0 +1,41 @@
+/* 1. The Foundation: Fix the Box Model (Most Important!) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. The Global Reset: Remove Default Margins and Padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* Optional: Set a base font for better consistency */
+  font-family: sans-serif;
+
+}
+
+body{
+ display: grid;
+ grid-template-columns: 1fr 4fr;
+ grid-template-rows: 230px 4fr;
+}
+
+header{
+  grid-column: 2;
+  grid-row:1;
+  border:2px solid black;
+}
+
+aside{
+  grid-column: 1;
+  grid-row: 1/-1;
+  border: 2px solid black
+}
+
+main{
+  grid-column: 2;
+  grid-row: 2;
+  border: 2px solid black;
+}
+
