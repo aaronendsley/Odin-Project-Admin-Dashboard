@@ -15,27 +15,30 @@ body {
 
 }
 
-body{
- display: grid;
- grid-template-columns: 1fr 4fr;
- grid-template-rows: 230px 4fr;
+li {
+  list-style: none;
 }
 
-header{
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 230px 4fr;
+}
+
+header {
   grid-column: 2;
-  grid-row:1;
-  border:2px solid black;
+  grid-row: 1;
+  border: 2px solid black;
 }
 
-aside{
+aside {
   grid-column: 1;
   grid-row: 1/-1;
   border: 2px solid black
 }
 
-main{
+main {
   grid-column: 2;
   grid-row: 2;
   border: 2px solid black;
 }
-
