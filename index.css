@@ -25,15 +25,16 @@ body {
 header {
   grid-column: 2;
   grid-row: 1;
-  border: 2px solid black;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
   display: grid;
   grid-template-rows: 1fr 1fr;
+  background-color: #FAFAFA;
 }
 
 aside {
   grid-column: 1;
   grid-row: 1/-1;
-  border: 2px solid black;
+
   background-color: #303F9F;
   color: #fff;
   display: grid;
@@ -72,7 +73,7 @@ aside li>span {
 main {
   grid-column: 2;
   grid-row: 2;
-  border: 2px solid black;
+  background-color: #E0E0E0
 }
 
 #logo {
