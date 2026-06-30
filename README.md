@@ -6,4 +6,4 @@ An Admin Dashboard. A Project in the Odin Project Curriculum
 https://lucide.dev/
 
 ## Profile Picture
- Generated with Gemini AI. f
+ Generated with Gemini AI. 
