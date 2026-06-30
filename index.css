@@ -63,6 +63,7 @@ aside li {
   display: flex;
   justify-content: baseline;
   margin: 10px 0;
+  font-weight: bold;
 }
 
 
