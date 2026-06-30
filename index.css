@@ -36,7 +36,7 @@ aside {
   grid-row: 1/-1;
 
   background-color: #303F9F;
-  color: #fff;
+  color: #FAFAFA;
   display: grid;
   grid-template-rows: 50px 200px 100px;
   gap: 20px;
@@ -129,6 +129,7 @@ main {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #E0E0E0;
 }
 
 
@@ -183,7 +184,7 @@ main {
 
 button {
   background-color: #303F9F;
-  color: #fff;
+  color: #FAFAFA;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
